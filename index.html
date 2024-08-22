@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <title>About Me</title>
+        <link rel = "stylesheet" href = "./style.css">
+        <link rel = "icon" type = "image/jpg" href = "./images/icon.jpg">
+        <link rel = "stylesheet" type = 'text/css' href = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    </head>
+    <body>
+        <header>
+            <nav class = "name-logo-flexbox">
+                <ul>
+                    <li><b style = "font-size:24px">Mohammad Sufian</b></li>
+                </ul>
+            </nav>
+            <nav class = "section-hyperlinks-flexbox">
+                <ul>
+                    <li><a href = "./">About Me</a></li>
+                    <li><a href = "./education">Education</a></li>
+                    <li><a href = "./work">Work Experience</a></li>
+                    <!-- <li><a href = "projects.html">Projects</a></li> -->
+                    <!-- <li><a href = "extracurriculars.html">Extracurriculars</a></li> -->
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class = "page-container">
+                <div class = "introduction-page-flexbox-container">
+                    <div class = "self-introduction-flexbox">
+                        <div class = "self-introduction-flexbox-component primary">
+                            <h2 style = "color:#5e6c5b">About Me</h2>
+                            <h1>Hello, my name is <span style = "color:#5e6c5b;">Mohammad Sufian.</span></h1>
+                            <p>I am a rising final-year student at the Hong Kong University of Science and Technology with relevant work experience in <span style = "color:#5e6c5b; font-weight:900;">data analytics</span>, <span style = "color:#5e6c5b; font-weight:900;">statistics</span> and <span style = "color:#5e6c5b; font-weight:900;">machine learning</span>. I am skilled in using analytical methods such as linear regression and decision trees to solve real-world problems.</p>
+                            <p style = "font-weight:900;">Check out my <span style = "color:#5e6c5b; font-weight:900;">portfolios</span> below:</p>
+                            <div class = "portfolio-buttons-flexbox">
+                                <button type = "button" class = "button LinkedIn" id = "button-LinkedIn">LinkedIn</button>
+                                <button type = "button" class = "button GitHub" id = "button-GitHub">GitHub</button>
+                            </div>
+                            <!-- <p style = "margin-top:0px; font-weight:900;">Or quickly glance over my <a href = "Mohammad-Sufian-Resume.pdf" style = "color:#5e6c5b; font-weight:900;">résumé</a>.</p> -->
+                            <p style = "margin-top:0px; font-weight:900;"> For the latest market insights, read through my <a href = "" style = "color:#5e6c5b; font-weight:900;">blog</a> (coming soon).</p>
+                            <!-- <iframe src = "Mohammad-Sufian-Resume.pdf" style = "width:600px; height:400px;" frameborder = "0"></iframe> -->
+                        </div>
+                        <div class = "self-introduction-flexbox-component secondary">
+                            <h2 style = "color:#5e6c5b">Current Endeavours</h2>
+                            <ul>
+                                <li>Creating a tool which would crawl the web for financial news articles and tweets to <span style = "color:#5e6c5b;">personalise my stock picks with sentiment analysis.</span></li>
+                                <br>
+                                <li>Preparing to participate in the upcoming <span style = "color:#5e6c5b;">Simon Marais Mathematics Competition.</span></li>
+                                <br>
+                                <li>Working on my <span style = "color:#5e6c5b;">blog.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class = "portrait-flexbox">
+                        <img class = "portrait" src = "./images/portrait.jpg" alt = "Portrait">
+                        <div class = "portrait-flexbox-caption">
+                            <p>"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success." - James Cameron</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "my-stack-flexbox-container">
+                    <h1 class = "stack-title" style = "color:#d6e0e2;">My Tech Stack</h1>
+                    <div class = "stack-logos-flexbox">
+                        <!-- <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg">
+                        <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg">
+                        <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg">
+                        <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"> -->     
+                        <i class = "devicon-python-plain"></i>
+                        <i class = "devicon-c-plain"></i>
+                        <i class = "devicon-cplusplus-plain"></i>
+                        <i class = "devicon-git-plain"></i>
+                        <i class = "devicon-github-original"></i>
+                        <i class = "devicon-vscode-plain"></i>
+                        <i class = "devicon-matlab-plain"></i>
+                        <i class = "devicon-r-plain"></i>
+                        <i class = "devicon-latex-original"></i>
+                        <i class = "devicon-mongodb-plain"></i>
+                        <i class = "devicon-mysql-original"></i>
+                        <i class = "devicon-linux-plain"></i>
+                        <i class = "devicon-keras-plain"></i>
+                        <i class = "devicon-numpy-plain"></i>
+                        <i class = "devicon-opencv-plain"></i>
+                        <i class = "devicon-pytorch-original"></i>
+                        <i class = "devicon-tensorflow-original"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src = "index.js"></script>
+    </body>
+</html>
